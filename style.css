@@ -109,6 +109,8 @@ nav ul li:hover {
 }
 .page-content .projects-section .projects .project .discription {
     font-size: 10px;
+    cursor: pointer;
+    
 }
 .page-content .projects-section .projects .project .dates {
     font-size: 13px;
@@ -134,8 +136,14 @@ footer .colonne p:hover {
 footer .colonne p img {
     width: 40px;
     height: 40px;
+} 
+ footer .colonne p img {
     
-}
+    align-items: center;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    border-radius: 50%;
+ }  
 
 @media screen and (max-width: 700px) {
    nav {
